@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 90" width="420" height="90">
+    <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#00C896"/>
+            <stop offset="100%" stop-color="#0066FF"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Icône ondes centrée verticalement à gauche (y=45 = milieu du viewBox 90px) -->
+    <path d="M8,45 A28,28 0 0,1 64,45" fill="none" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+    <path d="M15,45 A21,21 0 0,1 57,45" fill="none" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
+    <path d="M22,45 A14,14 0 0,1 50,45" fill="none" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="36" cy="45" r="5" fill="url(#g1)"/>
+
+    <!-- Séparateur vertical -->
+    <line x1="80" y1="15" x2="80" y2="75" stroke="#333" stroke-width="1"/>
+
+    <!-- Lettres décalées à droite, centrées verticalement -->
+    <text x="96" y="63" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="#ffffff">S</text>
+    <text x="134" y="53" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="#0066FF">I</text>
+    <text x="156" y="63" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="#ffffff">G</text>
+    <text x="194" y="53" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="#00C896">N</text>
+    <text x="234" y="63" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="#ffffff">A</text>
+    <text x="268" y="53" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="#0066FF">L</text>
+</svg>
