@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription — SIGNAL</title>
+  <meta name="description" content="Inscrivez-vous à SIGNAL, la journée dédiée au web et au design à Chartres.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">SIGNAL</a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Accueil</a></li>
+          <li class="nav__item"><a href="programme.html" class="nav__link">Programme</a></li>
+          <li class="nav__item"><a href="speakers.html" class="nav__link">Speakers</a></li>
+          <li class="nav__item"><a href="inscription.html" class="nav__link nav__link--active nav__link--cta">Inscription</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="page-hero">
+      <div class="page-hero__container">
+        <h1 class="page-hero__title">Inscription</h1>
+        <p class="page-hero__text">
+          Réservez votre place pour SIGNAL et participez à une journée dédiée au numérique responsable et à la création web.
+        </p>
+      </div>
+    </section>
+
+    <!-- ARGUMENTAIRE -->
+    <section class="registration">
+      <div class="registration__container">
+
+        <div class="registration__content">
+          <h2 class="registration__title">Pourquoi participer ?</h2>
+
+          <p class="registration__text">
+            SIGNAL est une opportunité unique de découvrir les enjeux actuels du web, d’échanger avec des professionnels passionnés et d’enrichir vos compétences.
+          </p>
+
+          <ul class="registration__list">
+            <li class="registration__item">✔ Développer vos compétences en web et design</li>
+            <li class="registration__item">✔ Découvrir les bonnes pratiques du numérique responsable</li>
+            <li class="registration__item">✔ Rencontrer des experts et élargir votre réseau</li>
+            <li class="registration__item">✔ Explorer les tendances actuelles du digital</li>
+          </ul>
+        </div>
+
+        <!-- FORMULAIRE -->
+        <div class="registration__form-wrapper">
+          <h2 class="registration__title">Réserver ma place</h2>
+
+          <form class="form" action="#" method="post">
+
+            <div class="form__group">
+              <label for="firstname" class="form__label">Prénom</label>
+              <input type="text" id="firstname" name="firstname" class="form__input" required>
+            </div>
+
+            <div class="form__group">
+              <label for="lastname" class="form__label">Nom</label>
+              <input type="text" id="lastname" name="lastname" class="form__input" required>
+            </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email" name="email" class="form__input" required>
+            </div>
+
+            <div class="form__group">
+              <label for="phone" class="form__label">Téléphone</label>
+              <input type="tel" id="phone" name="phone" class="form__input">
+            </div>
+
+            <div class="form__group">
+              <label for="status" class="form__label">Statut</label>
+              <select id="status" name="status" class="form__select" required>
+                <option value="">Sélectionnez</option>
+                <option value="etudiant">Étudiant</option>
+                <option value="professionnel">Professionnel</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+
+            <fieldset class="form__group">
+              <legend class="form__legend">Thématiques d’intérêt</legend>
+
+              <label class="form__checkbox">
+                <input type="checkbox" name="topics" value="ia">
+                IA & éthique
+              </label>
+
+              <label class="form__checkbox">
+                <input type="checkbox" name="topics" value="accessibilite">
+                Accessibilité web
+              </label>
+
+              <label class="form__checkbox">
+                <input type="checkbox" name="topics" value="design">
+                Design & UX
+              </label>
+
+              <label class="form__checkbox">
+                <input type="checkbox" name="topics" value="opensource">
+                Open source
+              </label>
+            </fieldset>
+
+            <div class="form__group form__group--checkbox">
+              <label class="form__checkbox">
+                <input type="checkbox" name="consent" required>
+                J’accepte que mes données soient utilisées dans le cadre de l’inscription (RGPD)
+              </label>
+            </div>
+
+            <button type="submit" class="button button--primary form__submit">
+              Valider mon inscription
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+
+      <div class="footer__brand">
+        <span class="footer__logo">SIGNAL</span>
+        <p class="footer__description">
+          L’événement dédié au web et au design à Chartres.
+        </p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Navigation secondaire">
+        <ul class="footer__list">
+          <li><a href="programme.html" class="footer__link">Programme</a></li>
+          <li><a href="speakers.html" class="footer__link">Speakers</a></li>
+          <li><a href="inscription.html" class="footer__link">Inscription</a></li>
+          <li><a href="contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__info">
+        <p>© 2026 SIGNAL — Tous droits réservés</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

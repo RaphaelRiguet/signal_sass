@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — SIGNAL</title>
+  <meta name="description" content="Contactez l'équipe SIGNAL pour toute question concernant l'événement.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">SIGNAL</a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Accueil</a></li>
+          <li class="nav__item"><a href="programme.html" class="nav__link">Programme</a></li>
+          <li class="nav__item"><a href="speakers.html" class="nav__link">Speakers</a></li>
+          <li class="nav__item"><a href="inscription.html" class="nav__link nav__link--cta">Inscription</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="page-hero">
+      <div class="page-hero__container">
+        <h1 class="page-hero__title">Contact</h1>
+        <p class="page-hero__text">
+          Une question sur l’événement SIGNAL ? Contactez-nous, nous vous répondrons rapidement.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <div class="contact__container">
+
+        <!-- FORMULAIRE -->
+        <div class="contact__form-wrapper">
+          <h2 class="contact__title">Envoyer un message</h2>
+
+          <form class="form" action="#" method="post">
+
+            <div class="form__group">
+              <label for="name" class="form__label">Nom</label>
+              <input type="text" id="name" name="name" class="form__input" required>
+            </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Email</label>
+              <input type="email" id="email" name="email" class="form__input" required>
+            </div>
+
+            <div class="form__group">
+              <label for="subject" class="form__label">Sujet</label>
+              <input type="text" id="subject" name="subject" class="form__input" required>
+            </div>
+
+            <div class="form__group">
+              <label for="message" class="form__label">Message</label>
+              <textarea id="message" name="message" class="form__textarea" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="button button--primary form__submit">
+              Envoyer
+            </button>
+
+          </form>
+        </div>
+
+        <!-- INFOS -->
+        <div class="contact__info">
+          <h2 class="contact__title">Informations pratiques</h2>
+
+          <p class="contact__text">
+            Vous pouvez également nous contacter via les informations ci-dessous.
+          </p>
+
+          <ul class="contact__list">
+            <li class="contact__item">
+              <strong>Adresse :</strong><br>
+              Espace culturel de Chartres<br>
+              28000 Chartres
+            </li>
+
+            <li class="contact__item">
+              <strong>Téléphone :</strong><br>
+              <a href="tel:+33123456789" class="contact__link">01 23 45 67 89</a>
+            </li>
+
+            <li class="contact__item">
+              <strong>Email :</strong><br>
+              <a href="mailto:contact@signal-event.fr" class="contact__link">
+                contact@signal-event.fr
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+
+      <div class="footer__brand">
+        <span class="footer__logo">SIGNAL</span>
+        <p class="footer__description">
+          L’événement dédié au web et au design à Chartres.
+        </p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Navigation secondaire">
+        <ul class="footer__list">
+          <li><a href="programme.html" class="footer__link">Programme</a></li>
+          <li><a href="speakers.html" class="footer__link">Speakers</a></li>
+          <li><a href="inscription.html" class="footer__link">Inscription</a></li>
+          <li><a href="contact.html" class="footer__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__info">
+        <p>© 2026 SIGNAL — Tous droits réservés</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
